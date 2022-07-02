@@ -1,7 +1,7 @@
 import './Body.css';
 import React, { useState } from 'react';
-import MainContent from './MainContent';
-import { bookApi } from './bookApi';
+import MainContent from '../MainContent/MainContent';
+import { bookApi } from '../bookApi';
 
 function Body() {
 
@@ -21,11 +21,9 @@ function Body() {
                     `&maxResults=40` +
                     `&key=AIzaSyCdrXm7ZD4Jn0vy_QrUkZLKhtFkFohzqVs`;
 
-        console.log(links);
         bookApi(links).then((response) => setInfo(response.items));
         bookApi(links).then((response) => setAmountOfInf(response.totalItems));
     }
-    console.log(info);
 
     return (
         <div className='Div'>

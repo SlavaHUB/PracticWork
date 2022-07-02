@@ -1,5 +1,4 @@
 import './Header.css';
-import Body from './Body'
 
 function Header() {
   return (
