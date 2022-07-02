@@ -1,0 +1,28 @@
+.cardDiv {
+    overflow: hidden;
+    display: inline-block;
+    background: #d3d3d3;
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.categories{
+    text-decoration-line: underline;
+    margin: 20px 0px 0px 0px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+.title {
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.authors{
+    margin: 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4); 
+}

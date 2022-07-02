@@ -1,0 +1,25 @@
+.Div {
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.search {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.myP {
+    margin: 25px 5px 5px 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.inlineDiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

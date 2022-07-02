@@ -1,0 +1,33 @@
+.DivHeader {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url(../Assets/headerImage.jpg);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    margin: 25px 25px 25px 25px;
+    color: black;
+    font-size: 45px;
+}
+
+select {
+    border-radius: 10px;
+    margin: 25px 5px 5px 5px;
+    font-size: 35px;
+}
+
+.inlineDiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
